@@ -27,6 +27,9 @@ namespace HashTable
             }
             Console.WriteLine("Displaying after add operation\n");
             hashtable.Display();
+            Console.WriteLine("\nDisplaying after removing avoidable\n");
+            hashtable.Remove("avoidable");
+            hashtable.Display();
             Console.WriteLine("-----------------------------------------");
         }
         static void Main(string[] args)
