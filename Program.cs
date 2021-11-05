@@ -6,7 +6,7 @@ namespace HashTable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome To Hash Table");
         }
     }
 }
